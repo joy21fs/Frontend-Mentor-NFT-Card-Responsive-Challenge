@@ -1,0 +1,128 @@
+body {
+  font-family: 'Outfit', sans-serif;
+  background-color: hsl(217, 54%, 11%);
+  color: hsl(215, 51%, 70%);
+  background-size: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+hr {
+  border-color: hsl(215, 51%, 70%);
+  border-bottom: none;
+  margin-top: 0;
+}
+
+.hover:hover {
+  color: hsl(178, 100%, 50%)
+}
+
+.container {
+  max-height: 100%;
+  max-width: 100%;
+  width: 375px;
+  height: 667px;
+}
+
+.wrapper {
+  background-color: hsl(216, 50%, 16%);
+  width: 75%;
+  height: 78%;
+  margin: 4.5rem auto;
+  padding: 7%;
+  border-radius: 25px;
+}
+
+.top-image-container {
+  width: 269.25px;
+  height: 269.25px;
+  position: relative;
+}
+
+.top-image {
+  width: 100%;
+  height: 100%;
+  border-radius: 25px;
+}
+
+.icon-view {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 110px;
+  background-color: hsl(178, 100%, 50%, 40%);
+  border-radius: 25px;
+  opacity: 0;
+}
+
+.icon-view:hover {
+  opacity: 1;
+}
+
+.text {
+  width: 100%;
+}
+
+.text-header {
+  color: #fff;
+}
+
+.subtitle {
+  font-size: 1rem;
+  font-weight: 200;
+}
+
+.boxes {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* ETH Box Section */
+.ETH-box p {
+  color: hsl(178, 100%, 50%);
+  margin-left: 5px;
+}
+
+.ETH-box {
+  display: flex;
+  align-items: center;
+}
+
+/* Clock Box Section */
+.clock-box {
+  display: flex;
+  align-items: center;
+}
+
+.clock-text {
+  margin-left: 5px;
+}
+
+.clock-box img {}
+
+/* Footer Section */
+.footer {
+  display: flex;
+  justify-content: flex-start;
+  padding: 2%;
+  font-weight: 200;
+}
+
+.avatar {
+  height: 15%;
+  width: 15%;
+  border-radius: 100%;
+  border-color: #fff;
+  border-width: thin;
+  border-style: solid;
+  margin-right: 4%;
+}
+
+span {
+  color: #fff;
+}
+
+.attribution {
+  padding-bottom: 1rem;
+}
