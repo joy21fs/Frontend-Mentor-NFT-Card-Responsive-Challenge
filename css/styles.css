@@ -2,9 +2,7 @@ body {
   font-family: 'Outfit', sans-serif;
   background-color: hsl(217, 54%, 11%);
   color: hsl(215, 51%, 70%);
-  background-size: 100%;
-  display: flex;
-  justify-content: center;
+
 }
 
 hr {
@@ -20,18 +18,21 @@ hr {
 .container {
   max-height: 100%;
   max-width: 100%;
-  width: 375px;
-  height: 667px;
+
   margin: auto;
 }
 
 .wrapper {
   background-color: hsl(216, 50%, 16%);
-  width: 75%;
-  height: 78%;
+  width: 281.25px;
+  height: 520.26px;
   margin: 4.5rem auto;
-  padding: 7%;
+  padding: 26.25px;
   border-radius: 25px;
+}
+
+.section {
+  margin: auto;
 }
 
 .top-image-container {
@@ -62,7 +63,7 @@ hr {
 }
 
 .text {
-  width: 100%;
+  width: 269.25px;
 }
 
 .text-header {
